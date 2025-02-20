@@ -85,4 +85,4 @@ if uploaded_file is not None:
         st.error("Erreur lors du chargement ou du traitement du fichier : " + str(e))
 else:
     st.info("Veuillez télécharger un fichier CSV ou Excel pour afficher le tableau de bord.")
-streamlit run dashboard.py
+
